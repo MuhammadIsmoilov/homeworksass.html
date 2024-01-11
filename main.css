@@ -336,4 +336,146 @@
   margin-left: 5px;
   color: grey;
   padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .zagolovok {
+    display: none;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .text h1 {
+    font-size: auto;
+  }
+  .content img {
+    width: 100%;
+    margin: auto;
+  }
+  .icons {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .icons .icon1 {
+    width: 100%;
+    position: relative;
+    right: 100px;
+  }
+  .icons .icon2 {
+    width: 100%;
+    position: relative;
+    right: 100px;
+  }
+  .icons .icon3 {
+    width: 100%;
+    position: relative;
+    right: 100px;
+  }
+  .icons .icon4 {
+    width: 100%;
+    position: relative;
+    right: 100px;
+  }
+  .content2 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .content2 .right {
+    width: 100%;
+    padding: 5px;
+    height: 60vh;
+  }
+  .content2 .left img {
+    width: 100%;
+  }
+  .photos {
+    gap: 1em;
+    justify-content: space-between;
+  }
+  .photos .photo1 img {
+    width: 100%;
+  }
+  .photos .photo2 img {
+    width: 100%;
+  }
+  .photos .photo3 img {
+    width: 100%;
+  }
+  .photos .photo4 img {
+    width: 100%;
+  }
+  .text2 {
+    width: 100%;
+  }
+  .text2 h1, .text2 p {
+    width: 100%;
+  }
+  .content3 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .content3 .left2 img {
+    width: 100%;
+  }
+  .content3 .right2 {
+    width: 65%;
+    height: 40vh;
+    margin-left: 10px;
+    margin-top: -20px;
+  }
+  .content3 .right2 h2, .content3 .right2 h3, .content3 .right2 p {
+    font-size: auto;
+  }
+  .text3 {
+    width: 100%;
+  }
+  .content4 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .content4 .left3 img {
+    width: 100%;
+  }
+  .content4 .right3 {
+    width: 100%;
+  }
+  .content4 .right3 h1, .content4 .right3 h2, .content4 .right3 p {
+    text-align: center;
+  }
+  .content5 {
+    display: none;
+  }
+  .footer {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .footer .f1 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .f2 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .f3 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .f4 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .f5 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .f6 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer2 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=main.css.map */
